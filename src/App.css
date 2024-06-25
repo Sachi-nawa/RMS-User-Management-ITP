@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-edit,
+.btn-delete{
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+
+.btn-edit{
+  background-color:  #e2f413; 
+}
+.btn-delete{
+  background-color: #fa1717;
+  color: white;
+}
+
+.btn-download{
+  background-color: blue;
+  color: white;
+  margin: 5px 10px;
+}
+.btn-search{
+  background-color: grey;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  color: white;
+}
+.btn-reg,
+.btn-log{
+  background-color: orange;
+  color: white;
+}
+.con {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust as needed */
+}
+.container {
+  background-color: #f9f9f9; /* Background color of the form container */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners for the form container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+.form-group {
+  margin-bottom: 20px; /* Margin between form groups */
+}
+label {
+  display: block; /* Display labels as blocks for better spacing */
+  margin-bottom: 5px; /* Margin below labels */
+}
+.btn-primary{
+  display: block; /* Display button as a block element */
+  width: 20%; /* Make button fill its container */
+  padding: 10px; /* Padding inside button */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Cursor style */
+}
+button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+.log{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sign{
+  text-align: center; /* Center align the heading */
+  margin-bottom: 600px;
+  color: #fda744;
+  margin-left: 20px;
+}
+.form-group {
+  margin-bottom: 20px; /* Margin between form groups */
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fix the sidebar to the left side of the screen */
+  top: 0; /* Start the sidebar at the top of the page */
+  left: 0; /* Set the left margin of the sidebar to 0 */
+  height: 100vh; /* Set the height of the sidebar to 100% of the viewport height */
+  background-color: #f0f0f0; /* Set the background color of the sidebar */
+  border-right: 1px solid #ddd; /* Add a border to the right side of the sidebar */
+  padding: 1rem 2rem; /* Add some padding to the sidebar content */
+}
+
+.sidebar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem; /* Add some space between the title and the links */
+}
+
+.sidebar-links {
+  display: flex; /* Make the links display flex so they can stack vertically */
+  flex-direction: column; /* Stack the links vertically */
+  list-style: none; /* Remove the default list style */
+  margin: 0; /* Remove the default margin */
+  padding: 0; /* Remove the default padding */
+}
+
+.sidebar-item {
+  margin-bottom: 1rem; /* Add some space between the links */
+}
+
+.sidebar-link {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set the link color */
+  font-size: 0.9rem; /* Set the link font size */
+}
+
+.sidebar-link:hover {
+  color: #000; /* Change the link color on hover */
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.Bismilla{
+  color: #f37704;
+}
+.container1{
+  width: 20;
+}
+/*.container{
+  color: #f37704;
+  background-color: #61dafb;
+}*/
